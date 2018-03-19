@@ -8599,7 +8599,7 @@ nav hr {
 }
 
 .logo.logo-wide {
-    
+
     bottom: 12px;
     margin-bottom: -4px
 }
@@ -19186,8 +19186,8 @@ html[xmlns] .slides {
 
 @font-face {
     font-family: et-line;
-    src: url("et-line.eot");
-    src: url("et-line.eot?#iefix") format("embedded-opentype"), url("et-line.woff") format("woff"), url("et-line.ttf") format("truetype"), url("et-line.svg#et-line") format("svg");
+    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.eot");
+    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.woff") format("woff"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.ttf") format("truetype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.svg#et-line") format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -19732,8 +19732,8 @@ html[xmlns] .slides {
 
 @font-face {
     font-family: ElegantIcons;
-    src: url("ElegantIcons.eot");
-    src: url("ElegantIcons.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/css/ElegantIcons.woff") format("woff"), url("ElegantIcons.ttf") format("truetype"), url("ElegantIcons.svg#ElegantIcons") format("svg");
+    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.eot");
+    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.woff") format("woff"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.ttf") format("truetype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.svg#ElegantIcons") format("svg");
     font-weight: 400;
     font-style: normal
 }
