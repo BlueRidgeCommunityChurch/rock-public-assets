@@ -19733,7 +19733,7 @@ html[xmlns] .slides {
 @font-face {
     font-family: ElegantIcons;
     src: url("ElegantIcons.eot");
-    src: url("ElegantIcons.eot?#iefix") format("embedded-opentype"), url("ElegantIcons.woff") format("woff"), url("ElegantIcons.ttf") format("truetype"), url("ElegantIcons.svg#ElegantIcons") format("svg");
+    src: url("ElegantIcons.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/css/ElegantIcons.woff") format("woff"), url("ElegantIcons.ttf") format("truetype"), url("ElegantIcons.svg#ElegantIcons") format("svg");
     font-weight: 400;
     font-style: normal
 }
