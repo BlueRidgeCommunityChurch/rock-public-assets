@@ -1,14 +1,6 @@
 /*! vendor.css */
 
 
-body {
-    color: yellow !important
-}
-
-
-
-
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 html {
@@ -1387,15 +1379,3 @@ th {
 .glyphfa-menu-up:before {
     content: \e260
 }
-
-
-
-
-
-
-
-
-
-
-
-
