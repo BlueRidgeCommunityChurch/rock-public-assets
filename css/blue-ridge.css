@@ -1,6 +1,7 @@
 /*! blue-ridge.css */
 
-/* Start of app/assets/stylesheets/bootstrap_and_overrides.scss */
+/* Start of app/assets/stylesheets/bootstrap_and_overrides.scss
+   Lines 6-5225 */
 
 .bg-primary {
     background-color: #2491ff !important;
@@ -5223,6 +5224,18 @@ footer.short-2 .contact-action:hover {
     display: none !important
 }
 
+
+
+/* brcc/app/assets/stylesheets/global.css.scss
+   Lines 5229-
+
+###############################################################################
+###############################################################################
+###############################################################################
+###############################################################################
+###############################################################################
+*/
+
 .top-bar-nav-container {
     opacity: 0;
     visibility: hidden
@@ -5236,7 +5249,7 @@ footer.short-2 .contact-action:hover {
 .fullscreen-nav-toggle h5 {
     position: fixed;
     z-index: 1000;
-    text-align: center;
+    ©text-align: center;
     top: 23px;
     right: 88px;
     font-size: 18px;
@@ -5394,6 +5407,9 @@ footer.short-2 .contact-action:hover {
     font-size: 42px
 }
 
+.modal {
+   background: #19232e;
+}
 
 .modal-backdrop {
     background: none
