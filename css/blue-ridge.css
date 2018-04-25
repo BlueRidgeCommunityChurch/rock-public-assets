@@ -1,5 +1,8 @@
 /* blue-ridge.css */
 
+/* Start of app/assets/stylesheets/bootstrap_and_overrides.scss with the bootstrap code insert removed from the beginning of the file.
+   Lines 6-5225 */
+
 .bg-primary {
     background-color: #2491ff !important;
     opacity: 1
@@ -5220,6 +5223,16 @@ footer.short-2 .contact-action:hover {
 .no-loader .loader {
     display: none !important
 }
+
+
+/* brcc/app/assets/stylesheets/global.css.scss
+   Lines 5229-
+
+###############################################################################
+###############################################################################
+###############################################################################
+###############################################################################
+############################################################################### */
 
 .top-bar-nav-container {
     opacity: 0;
