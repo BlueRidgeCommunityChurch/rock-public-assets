@@ -5407,16 +5407,12 @@ footer.short-2 .contact-action:hover {
     font-size: 42px
 }
 
-.modal {
-   background: #19232e;
-}
-
 .modal-backdrop {
     background: none
 }
 
 .modal2-content {
-    background: inherit;
+    background: #19232e;
     border-radius: 0;
     box-shadow: none;
     border: none
