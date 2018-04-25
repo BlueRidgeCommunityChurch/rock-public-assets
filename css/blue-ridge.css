@@ -5249,7 +5249,7 @@ footer.short-2 .contact-action:hover {
 .fullscreen-nav-toggle h5 {
     position: fixed;
     z-index: 1000;
-    text-align: center;
+    ©text-align: center;
     top: 23px;
     right: 88px;
     font-size: 18px;
