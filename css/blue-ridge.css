@@ -5574,6 +5574,10 @@ footer.short-2 .contact-action:hover {
     opacity: 1
 }
 
+.modal.custom-modal {
+  overflow: auto;
+  position: absolute;
+}
 
 .modal.custom-modal i {
     color: white;
