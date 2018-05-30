@@ -2835,6 +2835,14 @@ blockquote {
     }
 }
 
+.btn-link {
+  border-color: inherit;
+}
+
+.actions > input[type="submit"] {
+  margin: 0.5em;
+}
+
 input[type="submit"] {
     -webkit-appearance: none;
     background: none;
@@ -2848,7 +2856,6 @@ input[type="submit"] {
     line-height: 1;
     border: 2px solid #2491ff;
     color: #2491ff;
-    max-width: 155px;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 13px;
