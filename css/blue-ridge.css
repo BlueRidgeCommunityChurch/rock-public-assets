@@ -1140,6 +1140,10 @@ header.title:before {
     background-color: #333333
 }
 
+.actions {
+  text-align: right;
+}
+
 .action-banner {
     padding: 104px 0px;
     overflow: hidden;
@@ -5896,7 +5900,7 @@ fieldset textarea {
 
 .alert {
     border: none;
-    color: white;
+    color: #31708F;
     font-size: 14px
 }
 
@@ -10299,6 +10303,7 @@ body.gives .content-columns .btn-theme {
 
 .main-container {
     background-color: #f4f4f4
+    min-height: 70vh;
 }
 
 a.event-views {
