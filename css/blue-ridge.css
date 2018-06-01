@@ -1141,7 +1141,10 @@ header.title:before {
 }
 
 .actions {
-  text-align: right;
+    /* text-align: right; */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .action-banner {
