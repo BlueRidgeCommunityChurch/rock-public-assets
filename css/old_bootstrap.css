@@ -1,4 +1,4 @@
-webkit-overflow/* Original bootstrap code used on BR 2017 Rails site. */
+/* Original bootstrap code used on BR 2017 Rails site. */
 
 @font-face {
     font-family: 'Glyphfas Halflings' !important;
@@ -6634,7 +6634,7 @@ button.close {
     bottom: 0;
     left: 0;
     z-index: 1040;
-/*    -webkit-overflow-scrolling: touch; */
+    -webkit-overflow-scrolling: touch;
     outline: 0
 }
 
