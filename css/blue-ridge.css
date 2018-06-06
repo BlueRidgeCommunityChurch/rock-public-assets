@@ -13418,81 +13418,81 @@ body:after {
 
 
 
-body#internships.index .internships-container .page-header::before {
+body.internships .internships-container .page-header::before {
   opacity: 0.75;
   background-color: #0982ff;
 }
 @media (max-width: 767px) {
-  body#internships.index .internships-container .page-header {
+  body.internships .internships-container .page-header {
     padding: 130px 0;
   }
 }
-body#internships.index .internships-header {
+body.internships .internships-header {
   padding-top: 45px;
 }
-body#internships.index .internships-header h1 {
+body.internships .internships-header h1 {
   font-weight: 300;
   font-size: 76px;
 }
 @media (max-width: 767px) {
-  body#internships.index .internships-header h1 {
+  body.internships .internships-header h1 {
     font-size: 48px;
   }
 }
-body#internships.index .pure-text-centered {
+body.internships .pure-text-centered {
   background: #F4F4F4;
 }
-body#internships.index .pure-text-centered h2 {
+body.internships .pure-text-centered h2 {
   margin-bottom: 20px;
   font-size: 26px;
 }
-body#internships.index .pure-text-centered p {
+body.internships .pure-text-centered p {
   font-size: 20px;
 }
-body#internships.index .next-row {
+body.internships .next-row {
   padding-top: 0px;
   padding-left: 0px;
 }
-body#internships.index .faqs {
+body.internships .faqs {
   background: #F4F4F4;
 }
-body#internships.index .faqs h2 {
+body.internships .faqs h2 {
   margin-bottom: 20px;
   font-size: 26px;
 }
-body#internships.index .faqs p {
+body.internships .faqs p {
   font-size: 16px;
   color: #3F3F3F;
 }
-body#internships.index .content-block {
+body.internships .content-block {
   background: white;
   padding-left: 10px;
   padding-top: 80px;
   padding-bottom: 85px;
 }
 @media (max-width: 767px) {
-  body#internships.index .content-block {
+  body.internships .content-block {
     padding-top: 0;
   }
 }
-body#internships.index .content-block h1 {
+body.internships .content-block h1 {
   margin-bottom: 20px;
 }
-body#internships.index .content-block ul {
+body.internships .content-block ul {
   margin-bottom: 10px;
 }
-body#internships.index .content-block p {
+body.internships .content-block p {
   font-size: 16px;
 }
 @media (max-width: 767px) {
-  body#internships.index .content-columns {
+  body.internships .content-columns {
     margin-top: 50px;
   }
 }
-body#internships.index .content-columns .subheader {
+body.internships .content-columns .subheader {
   margin-bottom: 2px;
   line-height: 1.5;
 }
-body#internships.index .content-columns .btn {
+body.internships .content-columns .btn {
   margin-top: 15px;
 }
