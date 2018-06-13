@@ -1,3 +1,3 @@
-var baptismMessageIds = [];
-var pathArray = window.location.pathname.split( '=' );
+var baptismMessageIds = new Array();
+// var pathArray = window.location.pathname.split( '=' );
 var displayBaptismSidebar = false;
