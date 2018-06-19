@@ -682,18 +682,6 @@ nav hr {
     }
 }
 
-@media (max-width: 979px) {
-    .modal, .modal.container, .modal.modal-overflow {
-        top: 1%;
-        right: 1%;
-        left: 1%;
-        bottom: auto;
-        width: auto !important;
-        height: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important
-    }
-
 .top-bar .social-fas li a {
     font-size: 16px
 }
