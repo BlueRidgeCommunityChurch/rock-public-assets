@@ -10790,8 +10790,8 @@ html[xmlns] .slides {
 
 @font-face {
     font-family: et-line;
-    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.eot");
-    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.woff") format("woff"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.ttf") format("truetype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/et-line.svg#et-line") format("svg");
+    src: url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/et-line.eot");
+    src: url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/et-line.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/et-line.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/et-line.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/et-line.svg#et-line") format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -11336,8 +11336,8 @@ html[xmlns] .slides {
 
 @font-face {
     font-family: ElegantIcons;
-    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.eot");
-    src: url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.woff") format("woff"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.ttf") format("truetype"), url("https://cdn.rawgit.com/BlueRidgeCommunityChurch/rock-public-assets/gh-pages/vendor/assets/fonts/ElegantIcons.svg#ElegantIcons") format("svg");
+    src: url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/ElegantIcons.eot");
+    src: url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/ElegantIcons.woff") format("woff"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/ElegantIcons.ttf") format("truetype"), url("https://cdn.jsdelivr.net/gh/BlueRidgeCommunityChurch/rock-public-assets@gh-pages/vendor/assets/fonts/ElegantIcons.svg#ElegantIcons") format("svg");
     font-weight: 400;
     font-style: normal
 }
