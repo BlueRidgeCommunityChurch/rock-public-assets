@@ -106,8 +106,6 @@ a#mobileSearch{
     color: #ffffff;
 }
 
-
-
 .parallaxContent {
     background: #fff;
     position: relative;
@@ -339,6 +337,22 @@ a#mobileSearch{
     color: #98AEC5 !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #ffffff;
+    width: 35px;
+    height: 6px;
+    border-radius: 1.5px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+
+button.navbar-toggle{
+    border: none;
+    background: none !important;
+    padding: 14px 10px;
+}
 
 .dropdown-menu{
     font-family: 'Montserrat';
@@ -346,21 +360,46 @@ a#mobileSearch{
     font-size: 14px;
 }
 
-.brand-centered {
-  /*display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 0;*/
-}
 .navbar-brand {
   display: flex;
   align-items: center;
 }
 
+.form-group {
+    margin-bottom: 0px;
+}
+.form-control{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+a#mobileSearch{
+    font-size: 25px;
+    margin-top: 23px;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
 img#desktopLogo{
     max-width: 40px;
+}
+img#mobileLogo{
+    /*margin-left: 30px;
+    max-width: 50px;*/
+    margin-left: 25px;
+    /*padding: 10px;*/
+    height: 55px;
+}
+
+div#mobileLogoContainer{
+    display: flex !important;
+    align-items:center;
+    height: 76px;
+}
+
+.popover-content {
+    padding: 4px;
 }
 
 .container-fluid{
@@ -385,36 +424,39 @@ img#desktopLogo{
     color: #ffffff !important;
 }
 
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
 
 div#flexHeader{
-    display: flex !important;
+    display: flex;
     justify-content: space-between;
 }
 
 div#loginNav{
-    display: flex !important;
+    display: flex;
     min-width: 100px;
 }
 
 div#spacerNav{
-    display: flex !important;
+    display: flex;
     min-width: 100px;
 }
 
 div#flexNav{
-    display: flex !important;
-    justify-content: center !important;
+    display: flex;
+    justify-content: center;
 }
 
 div#leftNav{
-    display: flex !important;
-    justify-content: flex-end !important;
+    display: flex;
+    justify-content: flex-end;
     min-width: 400px;
 }
 
 div#rightNav{
-    display: flex !important;
-    justify-content: flex-start !important;
+    display: flex;
+    justify-content: flex-start;
     min-width: 400px;
 }
 
@@ -423,9 +465,52 @@ div#rightNav{
 }
 
 
+/*MEDIA QUERIES*/
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    div#flexHeader,
+    div#spacerNav,
+    div#flexNav,
+    div#leftNav,
+    div#rightNav{
+        display: block;
+    }
+    
+    .navbar-nav{
+        margin: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
+
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
-/*    .banner-image .content.hero-graphic {
+/*@media (min-width:992px) { 
+    .banner-image .content.hero-graphic {
         width: 100%;
     }
     
@@ -443,12 +528,12 @@ div#rightNav{
         margin-right: 15px;
     }
     
-   */
-}
+   
+}*/
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-    /*.button,
+/* Small devices*/
+/*@media (min-width:768px) { 
+    .button,
     #planYourVisit img
     {
         width: 90%;
@@ -492,12 +577,12 @@ div#rightNav{
     #footerMenu .navbar-nav{
         padding-left: 10px;
         margin: 0px;
-    }*/
-}
+    }
+}*/
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    /*div#watchCurrentSeries{
+/* Extra small devices*/
+/*@media (max-width:767px) { 
+    div#watchCurrentSeries{
         background-color:#EAE8E7;
         padding: 150px 20px;
     }
@@ -506,8 +591,8 @@ div#rightNav{
     }
     div#watchCurrentSeries i{
         padding-top: 5px;
-    }*/
+    }
     
-}
+}*/
 
 

@@ -27,61 +27,22 @@
     </head>
     
     <body>
-        
-<!--nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="primaryNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Jesus</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Next Steps</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Groups</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Serve</a></li>
-                                <li><a href="#">BR Kids</a></li>
-                                <li><a href="#">BR Youth</a></li>                
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Bedford</a></li>
-                                <li><a href="#">New London</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-        
-    <div class="brand-centered">
-        <a class="navbar-brand" href="#"><img id="desktopLogo" src="images/BR15-White.png" alt="BRCC Logo"></a>
-    </div>
-    </div>
-</nav-->
-
-        
+                
         <nav class="navbar navbar-default navbar-fixed-top">  
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primaryNavbar" aria-expanded="false">
+                    
+                    <div id="mobileButtonContainer"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primaryNavbar" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
+                        </button></div>
+
+                    <div id="mobileSearchContainer"><a id="mobileSearch" class="visible-xs pull-right" href="#" data-html="true" data-toggle="popover" data-container="body" data-placement="bottom" data-content="<div class='form-group'><input type='text' class='form-control' placeholder='Enter Search Here'></div>"><i class="fas fa-search"></i></a></div>
+
+                    <div id="mobileLogoContainer"><a href="/" class="logoLink"><img id="mobileLogo" class="visible-xs" src="images/BR15-White.png" /></a></div> 
                     
-                    <!--a id="mobileSearch" class="visible-xs pull-right" href="#" data-html="true" data-toggle="popover" data-container="body" data-placement="bottom" data-content="<div class='form-group'><input type='text' class='form-control' placeholder='Enter Search Here'></div>"><i class="fas fa-search"></i></a>
-                    
-                    <a href="/" class="logoLink"><img class="navbar-brand visible-xs" src="images/BR15-White.png" /></a-->
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -115,8 +76,8 @@
                             </ul>  
                         </div>            
 
-                        <div class="brand-centered">
-                        <a class="navbar-brand" href="#"><img id="desktopLogo" src="images/BR15-White.png" alt="BRCC Logo"></a>
+                        <div class="brand-centered hidden-xs">
+                            <a class="navbar-brand" href="#"><img id="desktopLogo" src="images/BR15-White.png" alt="BRCC Logo"></a>
                         </div>
 
                         <div id="rightNav">
@@ -136,7 +97,7 @@
                         
                     </div> <!-- end flexNav -->
                     
-                    <div id="loginNav">
+                    <div id="loginNav" class="hidden-xs">
                         <ul class="nav navbar-nav">
                             <li><a href="#contact" class="navbar-nav">Login</a></li>
                         </ul>
@@ -154,11 +115,12 @@
     </body>
     <script>
         $(document).ready(function(){
-          $('[data-toggle="popover"]').popover();
-            
-            $('.dropdown').hover(function(){ 
-              $('.dropdown-toggle', this).trigger('click'); 
-            });
+            $('[data-toggle="popover"]').popover();
+
+            /* Trigger Dropdown On Hover */
+            /*$('.dropdown').hover(function(){ 
+            $('.dropdown-toggle', this).trigger('click'); 
+            });*/
         });
     </script>
 </html>
