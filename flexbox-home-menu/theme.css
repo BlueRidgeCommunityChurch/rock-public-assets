@@ -393,9 +393,7 @@ img#mobileLogo{
 }
 
 div#mobileLogoContainer{
-    display: flex !important;
-    align-items:center;
-    height: 76px;
+    display:none;
 }
 
 .popover-content {
@@ -491,12 +489,16 @@ div#rightNav{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    div#mobileLogoContainer{
+        display: flex;
+        align-items:center;
+        height: 76px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
+    
 }
 
 /* Custom, iPhone Retina */ 
