@@ -493,6 +493,10 @@ div#rightNav{
     div#rightNav{
         display: block;
     }
+    .navbar-collapse{
+        border-top: 1px solid transparent;
+    }
+    
     .navbar-nav{
         margin: 0;
         float: none;
@@ -513,6 +517,11 @@ div#rightNav{
         align-items:center;
         height: 76px;
     }
+    
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+}
     
 }
 
