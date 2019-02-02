@@ -470,10 +470,22 @@ div#rightNav{
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+    div#spacerNav {
+        min-width: 75px;
+    }   
+    div#loginNav {
+        min-width: 75px;
+    }
+    
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    
+    /*div#leftNav,
+    div#rightNav{
+        min-width: 360px;
+    }*/
     div#flexHeader,
     div#spacerNav,
     div#flexNav,
@@ -481,19 +493,48 @@ div#rightNav{
     div#rightNav{
         display: block;
     }
-    
     .navbar-nav{
         margin: 0;
+        float: none;
     }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+    
+    .navbar-nav>li{
+        float: none;
+    }
+    
+    .navbar-nav>li a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    
     div#mobileLogoContainer{
         display: flex !important;
         align-items:center;
         height: 76px;
     }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+
 }
 
 /* Extra Small Devices, Phones */ 
