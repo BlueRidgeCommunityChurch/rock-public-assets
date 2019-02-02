@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- jQuery 3.3.1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Montserrat font, hosted by Google -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Satisfy|Permanent+Marker" rel="stylesheet" type="text/css">
+        
+        <!-- Open Sans font, hosted by Google -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        
+        <!-- FontAwesome 5.0 -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        
+        <!-- Custom Styles -->
+        <link href="theme.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+<!--nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="primaryNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Jesus</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Next Steps</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Groups</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Serve</a></li>
+                                <li><a href="#">BR Kids</a></li>
+                                <li><a href="#">BR Youth</a></li>                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Bedford</a></li>
+                                <li><a href="#">New London</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        
+    <div class="brand-centered">
+        <a class="navbar-brand" href="#"><img id="desktopLogo" src="images/BR15-White.png" alt="BRCC Logo"></a>
+    </div>
+    </div>
+</nav-->
+
+        
+        <nav class="navbar navbar-default navbar-fixed-top">  
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primaryNavbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <!--a id="mobileSearch" class="visible-xs pull-right" href="#" data-html="true" data-toggle="popover" data-container="body" data-placement="bottom" data-content="<div class='form-group'><input type='text' class='form-control' placeholder='Enter Search Here'></div>"><i class="fas fa-search"></i></a>
+                    
+                    <a href="/" class="logoLink"><img class="navbar-brand visible-xs" src="images/BR15-White.png" /></a-->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="primaryNavbar">
+                <div id="flexHeader">
+                    
+                    <div id="spacerNav">
+                    </div> <!-- end spacerNav -->
+                    
+                    <div id="flexNav">
+                        <div id="leftNav">
+                            <ul class="nav navbar-nav">
+                            <li><a href="#">Jesus</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Next Steps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Groups</a></li>
+                                        <li><a href="#">Events</a></li>
+                                        <li><a href="#">Serve</a></li>
+                                        <li><a href="#">BR Kids</a></li>
+                                        <li><a href="#">BR Youth</a></li>                
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Bedford</a></li>
+                                        <li><a href="#">New London</a></li>
+                                    </ul>
+                                </li>
+                            </ul>  
+                        </div>            
+
+                        <div class="brand-centered">
+                        <a class="navbar-brand" href="#"><img id="desktopLogo" src="images/BR15-White.png" alt="BRCC Logo"></a>
+                        </div>
+
+                        <div id="rightNav">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Stories</a></li>
+                                <li><a href="#">Care</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Give</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Give Now</a></li>
+                                        <li><a href="#">Be Rich</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hidden-xs"><a href="#" data-html="true" data-toggle="popover" data-container="body" data-placement="bottom" data-content="<div class='form-group'><input type='text' class='form-control' placeholder='Enter Search Here'></div>"><i class="fas fa-search"></i></a></li>
+                            </ul>
+                        </div>                     
+                        
+                    </div> <!-- end flexNav -->
+                    
+                    <div id="loginNav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#contact" class="navbar-nav">Login</a></li>
+                        </ul>
+                    </div> <!-- end loginNav -->
+                    
+                </div> <!-- end flexHeader -->
+                    
+                    
+                    
+                    
+                </div> <!-- end primaryNavbar -->
+            </div> <!-- end container-fluid -->
+        </nav>
+ 
+    </body>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+            
+            $('.dropdown').hover(function(){ 
+              $('.dropdown-toggle', this).trigger('click'); 
+            });
+        });
+    </script>
+</html>
+
+    
+
