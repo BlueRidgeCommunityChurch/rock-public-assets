@@ -482,10 +482,6 @@ div#rightNav{
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     
-    /*div#leftNav,
-    div#rightNav{
-        min-width: 360px;
-    }*/
     div#flexHeader,
     div#spacerNav,
     div#flexNav,
@@ -518,7 +514,7 @@ div#rightNav{
         height: 76px;
     }
     
-    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    .container-fluid>.navbar-header, .container>.navbar-header {
         margin-right: -15px;
         margin-left: -15px;
 }
