@@ -1,0 +1,298 @@
+#topMenu .navbar-nav>.open>a, 
+#topMenu .navbar-nav>.open>a:focus, 
+#topMenu .navbar-nav>.open>a:hover,
+#topMenu .navbar-nav>li>a:hover,
+#topMenu ul.dropdown-menu>li>a:hover,
+#topMenu ul.dropdown-menu>li>ul>li>a:hover{
+    background-color: #29435A !important;
+    color: #98AEC5 !important;
+}
+
+#topMenu .navbar-toggle .icon-bar{
+    background-color: #ffffff;
+    width: 35px;
+    height: 6px;
+    border-radius: 1.5px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+
+.navbar .navbar-toggle{
+    border: none;
+    background: none !important;
+    padding: 14px 10px;
+}
+
+.dropdown-menu{
+    font-family: 'Montserrat';
+    background-color: #29435A;
+    font-size: 16px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+.form-control{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+a#mobileSearch{
+    display: none;
+    font-size: 25px;
+    margin-top: 23px;
+    margin-right: 5px;
+    color: #ffffff;
+}
+
+img#desktopLogo{
+    max-width: 40px;
+}
+img#mobileLogo{
+    /*margin-left: 30px;
+    max-width: 50px;*/
+    margin-left: 25px;
+    /*padding: 10px;*/
+    height: 55px;
+}
+
+div#mobileLogoContainer{
+    display:none;
+}
+
+.popover-content {
+    padding: 4px;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#topMenu{
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 2em;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu>li>a{
+    font-weight: bold;
+}
+
+#topMenu .navbar-nav>li>a,
+.dropdown-menu>li>a,
+.dropdown-menu>li>ul>li>a{
+    color: #ffffff;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
+
+/*div#flexHeader{
+    display: flex;
+    justify-content: space-between;
+}*/
+
+div#loginNav{
+    display: flex;
+    min-width: 100px;
+}
+
+div#spacerNav{
+    display: flex;
+    min-width: 100px;
+}
+
+div#flexNav{
+    display: flex;
+    justify-content: center;
+}
+
+div#leftNav{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 400px;
+}
+
+div#rightNav{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 400px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+#footerMenu {
+    padding: 30px 0px;
+	background: #29435A;
+    height: 220px;
+}
+#footerMenu a,
+#footerMenu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+#footerMenu #desktopSignUp,
+#footerMenu #socialIcons{
+    margin-top:15px
+}
+
+#footerMenu #socialIcons a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#footerMenu #socialIcons a:hover{
+    color: #98AEC5;
+}
+
+#footerMenu .navbar-nav > li > a{
+    padding: 5px 18px;
+}
+
+#footerMenu a:hover {
+    color: #98AEC5;
+    background: none;
+    text-decoration: none;
+}
+
+#footerLinks,
+#socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+/*MEDIA QUERIES*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    div#spacerNav {
+        min-width: 75px;
+    }   
+    div#loginNav {
+        min-width: 75px;
+    }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    a#mobileSearch{
+        display:block;
+    }
+    .brand-centered,
+    #desktopSearch{
+        display: none;
+    }
+    div#flexHeader,
+    div#spacerNav,
+    div#flexNav,
+    div#leftNav,
+    div#rightNav{
+        display: block;
+    }
+    .navbar-collapse{
+        border-top: 1px solid transparent;
+    }
+    
+    .navbar-nav{
+        margin: 0;
+        float: none;
+    }
+    
+    .navbar-nav>li{
+        float: none;
+    }
+    
+    .navbar-nav>li a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    
+    div#mobileLogoContainer{
+        display: flex !important;
+        align-items:center;
+        height: 76px;
+    }
+    
+    .container-fluid>.navbar-header, .container>.navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+}
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #footerMenu #socialIcons .navbar-nav {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #footerMenu #socialIcons .navbar-nav > li {
+        display: inline-block;
+    }
+    #footerMenu {
+        padding: 40px 0px;
+        height: 320px;
+    }
+    
+    #footerMenu .navbar-nav>li>a {
+        padding: 0px 15px;
+    }
+    #footerMenu .navbar-nav{
+        padding-left: 10px;
+        margin: 0px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
