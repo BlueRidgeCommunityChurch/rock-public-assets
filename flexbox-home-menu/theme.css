@@ -351,7 +351,7 @@ a#mobileSearch{
     margin-top: 7px;
 }
 
-button.navbar-toggle{
+.navbar .navbar-toggle{
     border: none;
     background: none !important;
     padding: 14px 10px;
@@ -378,6 +378,7 @@ button.navbar-toggle{
 }
 
 a#mobileSearch{
+    display: none;
     font-size: 25px;
     margin-top: 23px;
     margin-right: 5px;
@@ -470,7 +471,6 @@ div#rightNav{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
     div#spacerNav {
         min-width: 75px;
     }   
@@ -482,7 +482,9 @@ div#rightNav{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    
+    a#mobileSearch{
+        display:block;
+    }
     div#flexHeader,
     div#spacerNav,
     div#flexNav,
@@ -550,7 +552,7 @@ div#rightNav{
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-
+    
 }
 
 
