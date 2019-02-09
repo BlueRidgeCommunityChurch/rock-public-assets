@@ -31,24 +31,24 @@
     font-size: 18px;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
     background-color: #002635;
 }
 
-.navbar-default .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>li>a,
 .dropdown-menu>li>a,
 .dropdown-menu>li>ul>li>a{
     color: #ffffff !important;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>ul>li>a:hover{
     color: #ffffff !important;
     background-color: #002635 !important;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-inverse .navbar-toggle .icon-bar{
     background-color: #ffffff;
     width: 35px;
     height: 6px;
@@ -330,14 +330,14 @@ a#mobileSearch{
 }
 */
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>li>a:hover,
+#topMenu .navbar-nav>.open>a, #topMenu .navbar-nav>.open>a:focus, #topMenu .navbar-nav>.open>a:hover,#topMenu .navbar-nav>li>a:hover,
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>ul>li>a:hover{
     background-color: #29435A;
     color: #98AEC5 !important;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+#topMenu .navbar-toggle .icon-bar{
     background-color: #ffffff;
     width: 35px;
     height: 6px;
@@ -405,10 +405,8 @@ div#mobileLogoContainer{
     padding-right: 0px;
 }
 
-.navbar {
-    background-color: #29435A !important;
+#topMenu{
     font-family: 'Montserrat';
-    /*font-weight: bold;*/
     text-transform: uppercase;
     font-size: 14px;
     line-height: 2em;
@@ -416,7 +414,7 @@ div#mobileLogoContainer{
     letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav>li>a,
+#topMenu .navbar-nav>li>a,
 .dropdown-menu>li>a,
 .dropdown-menu>li>ul>li>a{
     color: #ffffff !important;
