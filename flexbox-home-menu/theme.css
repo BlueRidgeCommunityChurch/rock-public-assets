@@ -410,6 +410,7 @@ div#mobileLogoContainer{
 }
 
 #topMenu{
+    margin-bottom: 0px;
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 14px;
@@ -464,10 +465,52 @@ div#rightNav{
     margin-left: 0px;
 }
 
+#footerMenu {
+    padding: 30px 0px;
+	background: #29435A;
+    height: 220px;
+}
+#footerMenu a,
+#footerMenu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+#footerMenu #desktopSignUp,
+#footerMenu #socialIcons{
+    margin-top:15px
+}
+
+#footerMenu #socialIcons a{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#footerMenu #socialIcons a:hover{
+    color: #98AEC5;
+}
+
+#footerMenu .navbar-nav > li > a{
+    padding: 5px 18px;
+}
+
+#footerMenu a:hover {
+    color: #98AEC5;
+    background: none;
+    text-decoration: none;
+}
+
+#footerLinks{
+    display: flex;
+    justify-content: center;
+}
 
 /*MEDIA QUERIES*/
-
-
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -545,7 +588,27 @@ div#rightNav{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    #footerMenu #socialIcons .navbar-nav {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+    }
     
+    #footerMenu #socialIcons .navbar-nav > li {
+        display: inline-block;
+    }
+    #footerMenu {
+        padding: 40px 0px;
+        height: 320px;
+    }
+    
+    #footerMenu .navbar-nav>li>a {
+        padding: 0px 15px;
+    }
+    #footerMenu .navbar-nav{
+        padding-left: 10px;
+        margin: 0px;
+    }
 
 }
 
@@ -558,6 +621,11 @@ div#rightNav{
 @media only screen and (max-width : 320px) {
     
 }
+
+
+
+
+
 
 
 
