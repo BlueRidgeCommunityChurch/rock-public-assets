@@ -330,10 +330,13 @@ a#mobileSearch{
 }
 */
 
-#topMenu .navbar-nav>.open>a, #topMenu .navbar-nav>.open>a:focus, #topMenu .navbar-nav>.open>a:hover,#topMenu .navbar-nav>li>a:hover,
-.dropdown-menu>li>a:hover,
-.dropdown-menu>li>ul>li>a:hover{
-    background-color: #29435A;
+#topMenu .navbar-nav>.open>a, 
+#topMenu .navbar-nav>.open>a:focus, 
+#topMenu .navbar-nav>.open>a:hover,
+#topMenu .navbar-nav>li>a:hover,
+#topMenu ul.dropdown-menu>li>a:hover,
+#topMenu ul.dropdown-menu>li>ul>li>a:hover{
+    background-color: #29435A !important;
     color: #98AEC5 !important;
 }
 
@@ -417,17 +420,17 @@ div#mobileLogoContainer{
 #topMenu .navbar-nav>li>a,
 .dropdown-menu>li>a,
 .dropdown-menu>li>ul>li>a{
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: none;
 }
 
-div#flexHeader{
+/*div#flexHeader{
     display: flex;
     justify-content: space-between;
-}
+}*/
 
 div#loginNav{
     display: flex;
