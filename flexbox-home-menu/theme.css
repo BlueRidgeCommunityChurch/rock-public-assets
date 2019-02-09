@@ -485,6 +485,10 @@ div#rightNav{
     a#mobileSearch{
         display:block;
     }
+    .brand-centered,
+    #desktopSearch{
+        display: none;
+    }
     div#flexHeader,
     div#spacerNav,
     div#flexNav,
