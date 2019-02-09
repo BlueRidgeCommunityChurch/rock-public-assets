@@ -360,7 +360,7 @@ a#mobileSearch{
 .dropdown-menu{
     font-family: 'Montserrat';
     background-color: #29435A;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .navbar-brand {
@@ -410,13 +410,19 @@ div#mobileLogoContainer{
 }
 
 #topMenu{
+    padding: 10px;
+    font-weight: bold;
     margin-bottom: 0px;
     font-family: 'Montserrat';
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2em;
     border: none;
     letter-spacing: 2px;
+}
+
+.dropdown-menu>li>a{
+    font-weight: bold;
 }
 
 #topMenu .navbar-nav>li>a,
@@ -476,7 +482,7 @@ div#rightNav{
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2em;
     letter-spacing: 2px;
 }
@@ -487,7 +493,7 @@ div#rightNav{
 
 #footerMenu #socialIcons a{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -505,7 +511,8 @@ div#rightNav{
     text-decoration: none;
 }
 
-#footerLinks{
+#footerLinks,
+#socialIcons{
     display: flex;
     justify-content: center;
 }
