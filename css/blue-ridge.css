@@ -7108,8 +7108,8 @@ body.events .main-container {
 }
 
 body.events .calendar-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 @media (max-width: 767px) {
@@ -7885,8 +7885,8 @@ body.missions .missions-container .missions-posts p a {
 
 body.missions .missions-container .page-header::before,
 body.missions .missions-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 @media (max-width: 767px) {
@@ -9001,8 +9001,8 @@ body.kids .notice {
 
 body.kids .kids-container .page-header::before,
 body.kids .kids-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 body.kids .kids-container .background-image-holder,
@@ -9177,8 +9177,8 @@ body.staffmembers .staff-container h1 {
 }
 
 body.staffmembers .staff-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 @media (max-width: 767px) {
@@ -9233,8 +9233,8 @@ body.staffmembers .visible-xs .btn-theme {
 
 body.welcomepages .welcome-container .page-header::before,
 body.welcomepages .welcome-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 body.welcomepages .welcome-container .background-image-holder,
@@ -9257,7 +9257,7 @@ body.welcomepages .weekend-intro h1 {
 
 body.welcomepages .mission .page-header::before,
 body.welcomepages .mission .page-header::before {
-    opacity: 0.58;
+    opacity: 0.5;
     background-color: #333333
 }
 
@@ -9454,8 +9454,8 @@ body.welcomepages .team-1-member p {
 }
 
 body.welcomepages.ourmission .mission-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 body.welcomepages.ourmission .mission-container .background-image-headers {
@@ -9549,8 +9549,8 @@ body.welcomepages.ourmission .back-mission a:hover {
 }
 
 body.welcomepages.beliefs .beliefs-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 body.welcomepages.beliefs .beliefs-container .background-image-headers {
@@ -9776,8 +9776,8 @@ body.contacts .contact-container {
 }
 
 body.contacts .contact-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 @media (max-width: 767px) {
@@ -9859,8 +9859,8 @@ body.proposals .content-block h2.push-down {
 }
 
 body.gives .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 @media (max-width: 767px) {
@@ -10201,8 +10201,8 @@ body.locations .location-container .page-header h1 {
 }
 
 body.locations .location-container .page-header::before {
-    opacity: 0.75;
-    background-color: #0982ff
+    opacity: 0.5;
+    background-color: #333333
 }
 
 body.locations .location-header {
@@ -13419,8 +13419,8 @@ body:after {
 
 
 body.internships .internships-container .page-header::before {
-  opacity: 0.75;
-  background-color: #0982ff;
+  opacity: 0.5;
+  background-color: #333333;
 }
 @media (max-width: 767px) {
   body.internships .internships-container .page-header {
