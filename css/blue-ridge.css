@@ -331,8 +331,8 @@ section {
 }
 
 section.nav-sub {
-    padding-top: 24px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 24px;
 }
 
 section.pad-large {
