@@ -3568,8 +3568,8 @@ footer.short-2 .contact-action:hover {
         padding-bottom: 64px
     }
     section.nav-sub {
-        padding-top: 24px;
-        padding-bottom: 0px
+        padding-top: 0px;
+        padding-bottom: 24px
     }
     .no-align-mobile {
         padding-top: 0px !important;
