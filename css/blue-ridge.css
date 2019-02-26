@@ -7905,9 +7905,18 @@ body.missions .missions-container .page-header::before {
     }
 }
 
+body.missions .missions-container .upcoming-trips {
+    background: white;
+    padding-bottom: 70px;
+}
+
+body.missions .missions-container .upcoming-trips p {
+    line-height: 30px !important;
+}
+
 body.missions .missions-container .projects-gallery,
 body.missions .missions-container .projects-gallery {
-    background: white
+    background: white;
 }
 
 body.missions .missions-container .projects-gallery h1,
