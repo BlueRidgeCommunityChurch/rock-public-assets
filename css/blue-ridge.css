@@ -566,7 +566,7 @@ nav hr {
     position: absolute;
     background: rgba(255, 255, 255, 0.97);
     width: 100%;
-    z-index: 10;
+    z-index: 1000;
     -webkit-transition: all .375s ease;
     -moz-transition: all .375s ease;
     transition: all .375s ease;
@@ -7730,9 +7730,17 @@ body.missions .signup h1 {
     }
 }
 
-body.missions section,
 body.missions section {
     padding-top: 60px
+}
+
+body.missions .upcoming-trips {
+    background: white;
+    padding-bottom: 70px;
+}
+
+body.missions .upcoming-trips p {
+    line-height: 30px !important;
 }
 
 body.missions .outer-post-img,
@@ -7903,15 +7911,6 @@ body.missions .missions-container .page-header::before {
     body.missions .missions-container .page-header {
         padding: 130px 0
     }
-}
-
-body.missions .missions-container .upcoming-trips {
-    background: white;
-    padding-bottom: 70px;
-}
-
-body.missions .missions-container .upcoming-trips p {
-    line-height: 30px !important;
 }
 
 body.missions .missions-container .projects-gallery,
