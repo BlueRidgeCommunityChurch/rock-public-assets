@@ -1,5 +1,14 @@
 /* blue-ridge.css */
 
+.alert-success {
+  background-color: #DDF5FF !important;
+}
+
+.alert-validation {
+  font-size: 18px !important;
+  color: #FF6666 !important;
+}
+
 .bg-primary {
     background-color: #2491ff !important;
     opacity: 1
@@ -9826,10 +9835,8 @@ body.contacts .content-block h2.push-down {
     margin-top: 40px
 }
 
-body.contacts .alert {
+body.contacts .alert-validation {
     padding: 0;
-    font-size: 18px;
-    color: #FF6666
 }
 
 body.proposals .proposal-container {
