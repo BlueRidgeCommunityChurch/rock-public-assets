@@ -2858,13 +2858,7 @@ blockquote {
 }
 
 input[type="submit"],
-#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary,
-#ctl00_main_ctl03_ctl01_ctl00_pnlView .btn-primary,
-#ctl00_main_ctl03_ctl01_ctl00_pnlView .btn-default,
-#ctl00_main_ctl03_ctl02_ctl00_pnlView .btn-primary,
-#ctl00_main_ctl03_ctl02_ctl00_pnlView .btn-default,
-#ctl00_main_ctl03_ctl03_ctl00_pnlView .btn-primary,
-#ctl00_main_ctl03_ctl03_ctl00_pnlView .btn-default{
+a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
     -webkit-appearance: none;
     background: none;
     -webkit-transition: all .3s ease;
@@ -2883,7 +2877,7 @@ input[type="submit"],
     text-transform: uppercase
 }
 
-#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary {
+a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
     background: #2491ff;
     color: #fff;
 }
