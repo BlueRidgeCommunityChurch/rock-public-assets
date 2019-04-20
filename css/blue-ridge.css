@@ -2857,7 +2857,9 @@ blockquote {
   margin: 0.5em;
 }
 
-input[type="submit"] {
+input[type="submit"],
+.btn-primary,
+.btn-default {
     -webkit-appearance: none;
     background: none;
     -webkit-transition: all .3s ease;
@@ -2874,6 +2876,11 @@ input[type="submit"] {
     font-weight: 900;
     font-size: 13px;
     text-transform: uppercase
+}
+
+.btn-primary {
+    background: #2491ff;
+    color: #fff;
 }
 
 .strip .mail-list-signup input[type="submit"] {
