@@ -2858,8 +2858,7 @@ blockquote {
 }
 
 input[type="submit"],
-.btn-primary,
-.btn-default {
+#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary {
     -webkit-appearance: none;
     background: none;
     -webkit-transition: all .3s ease;
@@ -2878,7 +2877,7 @@ input[type="submit"],
     text-transform: uppercase
 }
 
-.btn-primary {
+#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary {
     background: #2491ff;
     color: #fff;
 }
