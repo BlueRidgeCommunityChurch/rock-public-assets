@@ -2858,7 +2858,9 @@ blockquote {
 }
 
 input[type="submit"],
-#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary {
+#ctl00_main_ctl03_ctl01_ctl00_btnLogin .btn-primary,
+#ctl00_main_ctl03_ctl01_ctl00_pnlView .btn-primary,
+#ctl00_main_ctl03_ctl01_ctl00_pnlView .btn-default{
     -webkit-appearance: none;
     background: none;
     -webkit-transition: all .3s ease;
