@@ -4779,8 +4779,10 @@ footer.short-2 .contact-action:hover {
     transition: all .3s ease
 }
 
-.fullscreen-nav-toggle i.icon{
+.fullscreen-nav-toggle i.icon,
+.social-fas span.icon{
     overflow: visible;
+    border-radius: 0;
 }
 
 @media (max-width: 767px) {
