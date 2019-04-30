@@ -4781,7 +4781,8 @@ footer.short-2 .contact-action:hover {
 
 .fullscreen-nav-toggle i.icon,
 .social-fas span.icon,
-#topbarModal i.icon{
+#topbarModal i.icon,
+#topbarModal span.icon{
     overflow: visible;
     border-radius: 0;
 }
