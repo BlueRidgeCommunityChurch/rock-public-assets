@@ -4780,7 +4780,7 @@ footer.short-2 .contact-action:hover {
 }
 
 .fullscreen-nav-toggle i.icon{
-    overflow:none;
+    overflow: visible;
 }
 
 @media (max-width: 767px) {
