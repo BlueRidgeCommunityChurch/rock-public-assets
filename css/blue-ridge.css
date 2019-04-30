@@ -4787,6 +4787,11 @@ footer.short-2 .contact-action:hover {
     border-radius: 0;
 }
 
+.contained-bar.nav-sticky i.icon{
+	font-size: 42px;
+	border-radius: 0;
+}
+
 @media (max-width: 767px) {
     .fullscreen-nav-toggle {
         top: 45px;
