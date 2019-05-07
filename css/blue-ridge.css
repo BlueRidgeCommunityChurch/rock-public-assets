@@ -168,7 +168,7 @@ a:hover {
     text-transform: uppercase
 }
 
-img {
+img:not(.image-editor-crop-container img) {
     max-width: 100%
 }
 
