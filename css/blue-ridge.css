@@ -1,4 +1,4 @@
-/* blue-ridge.css */
+/* blueridgeNEW.css */
 
 .alert-success {
   background-color: #DDF5FF !important;
@@ -10,20 +10,20 @@
 }
 
 .bg-primary {
-    background-color: #2491ff !important;
+    background-color: #29435A !important;
     opacity: 1
 }
 
 .bg-secondary-1 {
-    background-color: #1f2e3d !important
+    background-color: #002635 !important
 }
 
 .bg-secondary-2 {
-    background-color: #2491ff !important
+    background-color: #29435A !important
 }
 
 .bg-secondary-3 {
-    background-color: #1f2e3d !important
+    background-color: #002635 !important
 }
 
 .bg-white {
@@ -75,7 +75,7 @@
 }
 
 .text-primary {
-    color: #2491ff
+    color: #29435A
 }
 
 .standard-radius {
@@ -139,7 +139,7 @@ h5,
 h6 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    color: #1f2e3d;
+    color: #002635;
     margin: 0px
 }
 
@@ -233,19 +233,19 @@ p:last-child {
 }
 
 p a {
-    color: #2491ff;
+    color: #29435A;
     border-bottom-width: 1px;
-    border-bottom-color: #2491ff;
+    border-bottom-color: #29435A;
     border-bottom-style: dotted;
     outline: 0;
     outline: none
 }
 
 p a:hover {
-    color: #1f2e3d;
+    color: #002635;
     outline: 0;
     outline: none;
-    border-bottom-color: #1f2e3d
+    border-bottom-color: #002635
 }
 
 .quote-text {
@@ -423,8 +423,8 @@ section:nth-of-type(even) {
 .btn-theme:hover {
     background: none;
     color: #fff;
-    border-color: #2491ff;
-    background-color: #2491ff
+    border-color: #29435A;
+    background-color: #29435A
 }
 
 .btn-theme-primary {
@@ -432,23 +432,23 @@ section:nth-of-type(even) {
     display: inline-block;
     padding: 14px 28px 13px 28px;
     line-height: 1;
-    border: 2px solid #2491ff;
+    border: 2px solid #29435A;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: #2491ff
+    color: #29435A
 }
 
 .btn-theme-primary.btn-theme-filled {
-    background: #2491ff;
+    background: #29435A;
     color: #fff
 }
 
 .btn-theme-primary.btn-theme-filled:hover {
-    background: #0982ff;
-    border-color: #0982ff;
+    background: #102A41;
+    border-color: #102A41;
     color: #fff
 }
 
@@ -502,7 +502,7 @@ section:nth-of-type(even) {
 
 .btn-theme-text-only:hover {
     background: none;
-    color: #2491ff;
+    color: #29435A;
     border-color: transparent
 }
 
@@ -512,15 +512,15 @@ section:nth-of-type(even) {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .12em;
-    border-bottom: 2px solid #2491ff;
+    border-bottom: 2px solid #29435A;
     display: inline-block;
     padding-bottom: 0px;
-    color: #2491ff
+    color: #29435A
 }
 
 .link-text:hover {
-    color: #1f2e3d;
-    border-bottom-color: #1f2e3d
+    color: #002635;
+    border-bottom-color: #002635
 }
 
 .more-posts-text {
@@ -529,15 +529,15 @@ section:nth-of-type(even) {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .12em;
-    border-bottom: 2px solid #2491ff;
+    border-bottom: 2px solid #29435A;
     display: inline-block;
     padding-bottom: 0px;
-    color: #2491ff
+    color: #29435A
 }
 
 .more-posts-text:hover {
-    color: #1f2e3d;
-    border-bottom-color: #1f2e3d
+    color: #002635;
+    border-bottom-color: #002635
 }
 
 nav hr {
@@ -824,7 +824,7 @@ nav hr {
 
 .subnav-fullwidth .btn-theme {
     padding-bottom: 13px !important;
-    color: #2491ff !important
+    color: #29435A !important
 }
 
 .subnav-fullwidth .btn-theme {
@@ -2477,7 +2477,7 @@ blockquote {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2491ff;
+    color: #29435A;
     cursor: pointer
 }
 
@@ -2486,7 +2486,7 @@ blockquote {
 }
 
 .filters li.active {
-    border-bottom: 2px solid #2491ff
+    border-bottom: 2px solid #29435A
 }
 
 .project {
@@ -2869,8 +2869,8 @@ a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
     display: inline-block;
     padding: 14px 28px 13px 28px;
     line-height: 1;
-    border: 2px solid #2491ff;
-    color: #2491ff;
+    border: 2px solid #29435A;
+    color: #29435A;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 13px;
@@ -2878,7 +2878,7 @@ a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
 }
 
 a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
-    background: #2491ff;
+    background: #29435A;
     color: #fff;
 }
 
@@ -2947,8 +2947,8 @@ a#ctl00_main_ctl03_ctl01_ctl00_btnLogin{
 }
 
 .photo-form-wrapper .btn-theme-filled {
-    background-color: #2491ff;
-    border-color: #2491ff
+    background-color: #29435A;
+    border-color: #29435A
 }
 
 .photo-form-wrapper input:focus {
@@ -4488,7 +4488,7 @@ footer.short-2 .contact-action:hover {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2491ff;
+    color: #29435A;
     cursor: pointer
 }
 
@@ -4497,7 +4497,7 @@ footer.short-2 .contact-action:hover {
 }
 
 .blog-filters li.active {
-    border-bottom: 2px solid #2491ff
+    border-bottom: 2px solid #29435A
 }
 
 .article-body .media-holder {
@@ -5004,7 +5004,7 @@ footer.short-2 .contact-action:hover {
 }
 
 .pagination li.active {
-    background: #2491ff;
+    background: #29435A;
     border: none
 }
 
@@ -5027,18 +5027,18 @@ footer.short-2 .contact-action:hover {
     display: inline-block;
     padding: 14px 28px 13px 28px;
     line-height: 1;
-    border: 2px solid #2491ff;
+    border: 2px solid #29435A;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2491ff;
+    color: #29435A;
     min-width: 125px
 }
 
 .pager li a:hover {
-    background: #2491ff;
+    background: #29435A;
     color: #fff
 }
 
@@ -5371,7 +5371,7 @@ footer.short-2 .contact-action:hover {
 }
 
 .docs-nav {
-    background: #2491ff
+    background: #29435A
 }
 
 .top-bar-nav-toggle i {
@@ -5687,7 +5687,7 @@ footer.short-2 .contact-action:hover {
     letter-spacing: .1em;
     font-weight: 900;
     text-transform: uppercase;
-    color: #4ca6ff;
+    color: #98AEC5;
     margin-bottom: 12px;
     line-height: 36px
 }
@@ -5723,7 +5723,7 @@ footer.short-2 .contact-action:hover {
     letter-spacing: .1em;
     font-weight: 900;
     text-transform: uppercase;
-    color: #4ca6ff;
+    color: #98AEC5;
     margin-bottom: 18px;
     line-height: 36px
 }
@@ -5960,7 +5960,7 @@ small.error {
 }
 
 body.home #feat-event h3 {
-    color: #1f2e3d;
+    color: #002635;
     margin-bottom: 10px
 }
 
@@ -6117,7 +6117,7 @@ body.home .featured-groups .feat-event-img .event-img-container:hover {
 
 body.home .featured-groups h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -6127,7 +6127,7 @@ body.home .featured-groups h1 {
 }
 
 body.home .featured-groups h3 {
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -6315,7 +6315,7 @@ body.home .current-message .feat-message-img .message-img-container:hover {
 
 body.home .current-message h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -6370,7 +6370,7 @@ body.home #emailmodal2 .modal2-content {
 
 .flash {
     text-align: center;
-    background-color: #2491ff;
+    background-color: #29435A;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -6382,7 +6382,7 @@ body.home #emailmodal2 .modal2-content {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #2491ff;
+    background-color: #29435A;
     color: white !important
 }
 
@@ -6402,7 +6402,7 @@ body.messages .main-container {
 
 body.messages .messages-title h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -6504,13 +6504,13 @@ body.messages #message-information #itunes-text p {
 }
 
 body.messages #message-information #itunes-text a {
-    color: #2491ff;
-    border-bottom-color: #2491ff
+    color: #29435A;
+    border-bottom-color: #29435A
 }
 
 body.messages #message-information #itunes-text a:hover {
-    color: #0982ff;
-    border-bottom-color: #0982ff
+    color: #102A41;
+    border-bottom-color: #102A41
 }
 
 body.messages #message-information .more-baptisms-container {
@@ -6535,7 +6535,7 @@ body.messages #message-information #other-messages img {
 }
 
 body.messages #message-information #other-messages .active-message {
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 body.messages #message-information #other-messages .active-message .glyphfa {
@@ -6685,7 +6685,7 @@ body.messages #message-information #small-other-messages img {
 }
 
 body.messages #message-information #small-other-messages .active-message {
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 body.messages #message-information #small-other-messages .active-message .glyphfa {
@@ -6986,7 +6986,7 @@ body.newsletters .newsletters-title {
 
 body.newsletters .newsletters-title h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -7019,7 +7019,7 @@ body.newsletters .photo-form-wrapper input {
 
 body.newsletters header.signup::before {
     opacity: 0.75;
-    background-color: #0982ff
+    background-color: #102A41
 }
 
 body.newsletters header.signup h1 {
@@ -7077,8 +7077,8 @@ body.newsletters .btn-theme {
 body.newsletters .btn-theme:hover {
     background: none;
     color: #fff;
-    border-color: #2491ff;
-    background-color: #2491ff
+    border-color: #29435A;
+    background-color: #29435A
 }
 
 body.newsletters .btn-theme-primary {
@@ -7086,13 +7086,13 @@ body.newsletters .btn-theme-primary {
     display: inline-block;
     padding: 14px 28px 13px 28px;
     line-height: 1;
-    border: 2px solid #2491ff;
+    border: 2px solid #29435A;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .1em;
-    color: #2491ff
+    color: #29435A
 }
 
 body.newsletters .btn-theme-white {
@@ -7204,7 +7204,7 @@ body.events .card {
 }
 
 body.events .card .campus {
-    background-color: #2491ff;
+    background-color: #29435A;
     margin-top: -10px;
     margin-left: -15px;
     margin-right: -15px;
@@ -7729,7 +7729,7 @@ body.events fieldset .btn-theme {
 }
 
 body.events p.campus-text {
-    color: #2491ff
+    color: #29435A
 }
 
 body.events .map-link p.campus-text:hover {
@@ -7907,7 +7907,7 @@ body.missions .back-missions {
 body.missions .back-missions a,
 body.missions .back-missions a {
     font-size: 18px;
-    color: #2491ff
+    color: #29435A
 }
 
 body.missions .back-missions a:hover,
@@ -8049,7 +8049,7 @@ body.posts .posts-container {
 
 body.posts .posts-title h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -8063,7 +8063,7 @@ body.posts .blog-filters {
 }
 
 body.posts .blog-filters li.active:hover {
-    border-bottom-color: #1f2e3d;
+    border-bottom-color: #002635;
     cursor: auto
 }
 
@@ -8072,7 +8072,7 @@ body.posts .blog-filters li {
 }
 
 body.posts .blog-filters a:hover {
-    color: #1f2e3d
+    color: #002635
 }
 
 body.posts .pag-container {
@@ -8163,7 +8163,7 @@ body.posts.stories .main-container {
 
 body.posts.stories .posts-title h1 {
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -8531,7 +8531,7 @@ body.searches .more-results a {
 }
 
 body.searches .more-results a:hover {
-    color: #1f2e3d
+    color: #002635
 }
 
 body.searches h1 {
@@ -8569,7 +8569,7 @@ body.kids.bedford .who-for {
     letter-spacing: .12em;
     display: inline-block;
     padding-bottom: 0px;
-    color: #2491ff
+    color: #29435A
 }
 
 body.groups .who-for:hover,
@@ -8614,7 +8614,7 @@ body.kids .blog-filters li.active:hover,
 body.kids.crisis .blog-filters li.active:hover,
 body.kids.newlondon .blog-filters li.active:hover,
 body.kids.bedford .blog-filters li.active:hover {
-    border-bottom-color: #1f2e3d
+    border-bottom-color: #002635
 }
 
 body.groups .blog-filters a:hover,
@@ -8629,7 +8629,7 @@ body.kids .blog-filters a:hover,
 body.kids.crisis .blog-filters a:hover,
 body.kids.newlondon .blog-filters a:hover,
 body.kids.bedford .blog-filters a:hover {
-    color: #1f2e3d
+    color: #002635
 }
 
 body.groups .groups-container,
@@ -8871,7 +8871,7 @@ body.kids .grouped-events .group-tip h5,
 body.kids.crisis .grouped-events .group-tip h5,
 body.kids.newlondon .grouped-events .group-tip h5,
 body.kids.bedford .grouped-events .group-tip h5 {
-    font-color: #2491ff
+    font-color: #29435A
 }
 
 body.groups .grouped-events h5,
@@ -8886,7 +8886,7 @@ body.kids .grouped-events h5,
 body.kids.crisis .grouped-events h5,
 body.kids.newlondon .grouped-events h5,
 body.kids.bedford .grouped-events h5 {
-    font-color: #2491ff
+    font-color: #29435A
 }
 
 body.groups .grouped-events .subheader,
@@ -9583,7 +9583,7 @@ body.welcomepages.ourmission .back-mission {
 
 body.welcomepages.ourmission .back-mission a {
     font-size: 18px;
-    color: #2491ff
+    color: #29435A
 }
 
 body.welcomepages.ourmission .back-mission a:hover {
@@ -9627,7 +9627,7 @@ body.welcomepages.beliefs .back-beliefs {
 
 body.welcomepages.beliefs .back-beliefs a {
     font-size: 18px;
-    color: #2491ff
+    color: #29435A
 }
 
 body.welcomepages.beliefs .back-beliefs a:hover {
@@ -9682,7 +9682,7 @@ body.wikiblocks .blog-filters {
 }
 
 body.wikiblocks .blog-filters li.active:hover {
-    border-bottom-color: #1f2e3d;
+    border-bottom-color: #002635;
     cursor: auto
 }
 
@@ -9691,7 +9691,7 @@ body.wikiblocks .blog-filters li {
 }
 
 body.wikiblocks .blog-filters a:hover {
-    color: #1f2e3d
+    color: #002635
 }
 
 body.wikiblocks .block-section {
@@ -9709,7 +9709,7 @@ body.wikiblocks .block-element {
 body.wikiblocks h1 {
     margin-bottom: 28px;
     font-size: 38px;
-    color: #1f2e3d
+    color: #002635
 }
 
 @media (max-width: 767px) {
@@ -9741,7 +9741,7 @@ body.wikiblocks .body-section ul li {
 
 body.pages .page-container .blue-header::before {
     opacity: 0.75;
-    background-color: #0982ff
+    background-color: #102A41
 }
 
 body.pages .page-container .background-image-headers {
@@ -10156,7 +10156,7 @@ a.event-views {
 }
 
 .freeway-container #needs #all-needs-link {
-    color: #2491ff;
+    color: #29435A;
     font-size: 14px
 }
 
@@ -10198,9 +10198,9 @@ a.event-views {
 }
 
 .freeway-container #needs .need .contact-info a {
-    color: #2491ff;
+    color: #29435A;
     border-bottom-width: 1px;
-    border-bottom-color: #2491ff;
+    border-bottom-color: #29435A;
     border-bottom-style: dotted;
     outline: 0;
     outline: none

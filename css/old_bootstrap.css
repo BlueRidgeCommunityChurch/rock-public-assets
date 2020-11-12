@@ -1091,7 +1091,7 @@ textarea {
 }
 
 a {
-    color: #2491ff;
+    color: #29435A;
     text-decoration: none;
     outline: none
 }
@@ -1369,7 +1369,7 @@ mark,
 }
 
 .text-primary {
-    color: #2491ff
+    color: #29435A
 }
 
 a.text-primary:hover {
@@ -1413,7 +1413,7 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 a.bg-primary:hover {
@@ -3535,7 +3535,7 @@ fieldset[disabled] .btn-theme-default.active {
 
 .btn-theme-primary {
     color: #fff;
-    background-color: #2491ff;
+    background-color: #29435A;
     border-color: #0b84ff
 }
 
@@ -3574,12 +3574,12 @@ fieldset[disabled] .btn-theme-primary:focus,
 fieldset[disabled] .btn-theme-primary.focus,
 fieldset[disabled] .btn-theme-primary:active,
 fieldset[disabled] .btn-theme-primary.active {
-    background-color: #2491ff;
+    background-color: #29435A;
     border-color: #0b84ff
 }
 
 .btn-theme-primary .badge {
-    color: #2491ff;
+    color: #29435A;
     background-color: #fff
 }
 
@@ -3784,7 +3784,7 @@ fieldset[disabled] .btn-theme-danger.active {
 }
 
 .btn-theme-link {
-    color: #2491ff;
+    color: #29435A;
     font-weight: normal;
     border-radius: 0
 }
@@ -3978,7 +3978,7 @@ tbody.collapse.in {
     color: #fff;
     text-decoration: none;
     outline: 0;
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 .dropdown-menu>.disabled>a,
@@ -4471,7 +4471,7 @@ tbody.collapse.in {
 .nav .open>a:hover,
 .nav .open>a:focus {
     background-color: #eeeeee;
-    border-color: #2491ff
+    border-color: #29435A
 }
 
 .nav .nav-divider {
@@ -4531,7 +4531,7 @@ tbody.collapse.in {
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
     color: #fff;
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 .nav-stacked>li {
@@ -5304,7 +5304,7 @@ fieldset[disabled] .navbar-inverse .btn-theme-link:focus {
     padding: 6px 12px;
     line-height: 1.42857;
     text-decoration: none;
-    color: #2491ff;
+    color: #29435A;
     background-color: #fff;
     margin-left: -1px
 }
@@ -5338,7 +5338,7 @@ fieldset[disabled] .navbar-inverse .btn-theme-link:focus {
 .pagination>.active>span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #2491ff;
+    background-color: #29435A;
     cursor: default
 }
 
@@ -5483,7 +5483,7 @@ a.label:focus {
 }
 
 .label-primary {
-    background-color: #2491ff
+    background-color: #29435A
 }
 
 .label-primary[href]:hover,
@@ -5559,7 +5559,7 @@ a.label:focus {
 
 .list-group-item.active>.badge,
 .nav-pills>.active>a>.badge {
-    color: #2491ff;
+    color: #29435A;
     background-color: #fff
 }
 
@@ -5658,7 +5658,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-    border-color: #2491ff
+    border-color: #29435A
 }
 
 .alert {
@@ -5791,7 +5791,7 @@ a.thumbnail.active {
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #2491ff;
+    background-color: #29435A;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     -webkit-transition: width 0.6s ease;
@@ -5976,8 +5976,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
     z-index: 2;
     color: #fff;
-    background-color: #2491ff;
-    border-color: #2491ff
+    background-color: #29435A;
+    border-color: #29435A
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6419,26 +6419,26 @@ a.list-group-item-danger.active:focus {
 }
 
 .panel-primary {
-    border-color: #2491ff
+    border-color: #29435A
 }
 
 .panel-primary>.panel-heading {
     color: #fff;
-    background-color: #2491ff;
-    border-color: #2491ff
+    background-color: #29435A;
+    border-color: #29435A
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
-    border-top-color: #2491ff
+    border-top-color: #29435A
 }
 
 .panel-primary>.panel-heading .badge {
-    color: #2491ff;
+    color: #29435A;
     background-color: #fff
 }
 
 .panel-primary>.panel-footer+.panel-collapse>.panel-body {
-    border-bottom-color: #2491ff
+    border-bottom-color: #29435A
 }
 
 .panel-success {
