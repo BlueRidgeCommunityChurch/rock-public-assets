@@ -6627,7 +6627,7 @@ button.close {
 	margin-left:0px;
 	background:none;
 	border:none;
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
     top: 0;
     right: 0;
