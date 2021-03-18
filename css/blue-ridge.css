@@ -9173,9 +9173,9 @@ body.kids #groups .sub-nav {
 }
 
 body.staffmembers #staff-member img {
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px
 }
 
 body.staffmembers #staff-member span {
@@ -9470,9 +9470,9 @@ body.welcomepages .team-1-member p {
 @media (min-width: 992px) {
     body.welcomepages .team-1-member img,
     body.welcomepages .team-1-member img {
-        border-radius: 125px;
-        -webkit-border-radius: 125px;
-        -moz-border-radius: 125px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
         width: 250px;
         height: 250px
     }
@@ -9481,9 +9481,9 @@ body.welcomepages .team-1-member p {
 @media (max-width: 991px) {
     body.welcomepages .team-1-member img,
     body.welcomepages .team-1-member img {
-        border-radius: 100px;
-        -webkit-border-radius: 100px;
-        -moz-border-radius: 100px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
         width: 200px;
         height: 200px
     }
